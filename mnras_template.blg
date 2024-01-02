@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: mnras_template.aux
+The style file: mnras.bst
+Database file #1: example.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty publisher in Amaro_rejection_2021
+You've used 41 entries,
+            2881 wiz_defined-function locations,
+            1055 strings with 25449 characters,
+and the built_in function-call counts, 18668 in all, are:
+= -- 1604
+> -- 1275
+< -- 65
++ -- 556
+- -- 175
+* -- 2376
+:= -- 2847
+add.period$ -- 0
+call.type$ -- 41
+change.case$ -- 82
+chr.to.int$ -- 41
+cite$ -- 42
+duplicate$ -- 920
+empty$ -- 932
+format.name$ -- 317
+if$ -- 3247
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 40
+newline$ -- 137
+num.names$ -- 256
+pop$ -- 177
+preamble$ -- 1
+purify$ -- 164
+quote$ -- 0
+skip$ -- 548
+stack$ -- 0
+substring$ -- 1154
+swap$ -- 419
+text.length$ -- 166
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 369
+warning$ -- 1
+while$ -- 292
+width$ -- 0
+write$ -- 423
+(There was 1 warning)
