@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex mnras_template"] 1704710742 "mnras_template.aux" "mnras_template.bbl" "mnras_template" 1704710747
+["bibtex mnras_template"] 1704710742 "mnras_template.aux" "mnras_template.bbl" "mnras_template" 1704711737
   "/usr/share/texlive/texmf-dist/bibtex/bst/mnras/mnras.bst" 1593726342 43376 8463aa2cc1948e346d5641ca59bb4619 ""
   "example.bib" 1704709023 99384 bb5f6a62e663e882e696f9f652065c56 ""
-  "mnras_template.aux" 1704710747 14114 fed726fcd9fa2fc4c6e9143de5b3a2db "pdflatex"
+  "mnras_template.aux" 1704711737 14114 fed726fcd9fa2fc4c6e9143de5b3a2db "pdflatex"
   (generated)
   "mnras_template.bbl"
   "mnras_template.blg"
-["pdflatex"] 1704710742 "/home/liurongfu/python_project/m10-gamma10-paper/mnras_template.tex" "mnras_template.pdf" "mnras_template" 1704710747
+["pdflatex"] 1704711731 "/home/liurongfu/python_project/m10-gamma10-paper/mnras_template.tex" "mnras_template.pdf" "mnras_template" 1704711737
   "/etc/texmf/web2c/texmf.cnf" 1704710570 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/liurongfu/python_project/m10-gamma10-paper/mnras_template.tex" 1704709023 55987 1fff8e046e4f7900cbff73451ea0c699 ""
+  "/home/liurongfu/python_project/m10-gamma10-paper/mnras_template.tex" 1704711731 56128 3dd2db569f556b13f07a6e51e604966e ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc" 1640468671 2914 8283dfc24eaf1964346f843d7605c2b0 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1422827479 2083 60e36f8eac802fcaf19eabe2633b406e ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -166,10 +166,10 @@
   "figure/m2f_ratio.png" 1704709023 136136 86a15672d1daf9198951fdbab106fb1f ""
   "figure/mg_relation.png" 1704709023 210258 d13b49b8460d42139eb8509fff657374 ""
   "figure/sim_result.png" 1704709023 218784 d87790b3567959077534619edca2e296 ""
-  "mnras_template.aux" 1704710747 14114 fed726fcd9fa2fc4c6e9143de5b3a2db "pdflatex"
+  "mnras_template.aux" 1704711737 14114 fed726fcd9fa2fc4c6e9143de5b3a2db "pdflatex"
   "mnras_template.bbl" 1704710742 11624 4ef2b1b2573d8c634973bf905259b9d4 "bibtex mnras_template"
-  "mnras_template.out" 1704710747 1452 89bb897d96abb3571c755f6a6b336986 "pdflatex"
-  "mnras_template.tex" 1704709023 55987 1fff8e046e4f7900cbff73451ea0c699 ""
+  "mnras_template.out" 1704711737 1452 89bb897d96abb3571c755f6a6b336986 "pdflatex"
+  "mnras_template.tex" 1704711731 56128 3dd2db569f556b13f07a6e51e604966e ""
   (generated)
   "mnras_template.aux"
   "mnras_template.log"
