@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.3.20)  7 JAN 2024 16:36
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.3.20)  8 JAN 2024 11:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -904,74 +904,76 @@ File: figure/m2f_ratio.png Graphic file (type bmp)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-File: figure/completeness_cut.png Graphic file (type bmp)
-<figure/completeness_cut.png>
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 5.5pt on input line 277.
-Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 5.5pt
- -> /usr/share/texlive/texmf-dist/fonts/opentype/public/newtx/TeXGyreTermesX-Regular.otf
-LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 7.3pt on input line 292.
+(Font)              scaled to size 7.3pt on input line 234.
 Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 7.3pt
  -> /usr/share/texlive/texmf-dist/fonts/opentype/public/newtx/TeXGyreTermesX-Regular.otf
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
+(Font)              scaled to size 5.5pt on input line 234.
+Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 5.5pt
+ -> /usr/share/texlive/texmf-dist/fonts/opentype/public/newtx/TeXGyreTermesX-Regular.otf
+File: figure/completeness_cut.png Graphic file (type bmp)
+<figure/completeness_cut.png>
+ [4]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 318.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 300.
+(hyperref)                removing `subscript' on input line 318.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 300.
+(hyperref)                removing `math shift' on input line 318.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 300.
+(hyperref)                removing `math shift' on input line 318.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 300.
+(hyperref)                removing `\Gamma' on input line 318.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Gamma' on input line 300.
+(hyperref)                removing `subscript' on input line 318.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 300.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 300.
+(hyperref)                removing `math shift' on input line 318.
 
 File: figure/circularised.png Graphic file (type bmp)
 <figure/circularised.png>
-[4]
 File: figure/sim_result.png Graphic file (type bmp)
 <figure/sim_result.png>
- [5]
 File: figure/mg_relation.png Graphic file (type bmp)
 <figure/mg_relation.png>
 File: figure/gamma.png Graphic file (type bmp)
 <figure/gamma.png>
- [6] (./mnras_template.bbl
-LaTeX Info: Redefining \VAN on input line 1.
-) [7
 
-] (./mnras_template.aux)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5] (./mnras_template.bbl
+LaTeX Info: Redefining \VAN on input line 1.
+ [6])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7] (./mnras_template.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
 Package rerunfilecheck Info: File `mnras_template.out' has not changed.
-(rerunfilecheck)             Checksum: F846673BA0C807369B4E2310AC1943BC;1264.
+(rerunfilecheck)             Checksum: 825FBD528573E4D64EAEF828312377A3;1559.
  ) 
 Here is how much of TeX's memory you used:
- 19840 strings out of 476191
- 401590 string characters out of 5812072
- 743013 words of memory out of 5000000
- 40291 multiletter control sequences out of 15000+600000
+ 19842 strings out of 476191
+ 401619 string characters out of 5812072
+ 743559 words of memory out of 5000000
+ 40293 multiletter control sequences out of 15000+600000
  506796 words of font info for 126 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 88i,15n,99p,1447b,762s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 88i,15n,99p,1447b,981s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on mnras_template.pdf (7 pages).
