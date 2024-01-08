@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.3.20)  8 JAN 2024 11:01
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.3.20)  8 JAN 2024 14:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -951,10 +951,7 @@ File: figure/mg_relation.png Graphic file (type bmp)
 <figure/mg_relation.png>
 File: figure/gamma.png Graphic file (type bmp)
 <figure/gamma.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5] (./mnras_template.bbl
+[5] (./mnras_template.bbl
 LaTeX Info: Redefining \VAN on input line 1.
  [6])
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -965,15 +962,15 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
 Package rerunfilecheck Info: File `mnras_template.out' has not changed.
-(rerunfilecheck)             Checksum: 825FBD528573E4D64EAEF828312377A3;1559.
+(rerunfilecheck)             Checksum: 89BB897D96ABB3571C755F6A6B336986;1452.
  ) 
 Here is how much of TeX's memory you used:
  19842 strings out of 476191
  401619 string characters out of 5812072
- 743559 words of memory out of 5000000
+ 744439 words of memory out of 5000000
  40293 multiletter control sequences out of 15000+600000
  506796 words of font info for 126 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 88i,15n,99p,1447b,981s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 88i,15n,99p,2080b,981s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on mnras_template.pdf (7 pages).
