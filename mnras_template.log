@@ -949,4 +949,30 @@ File: figure/sim_result.png Graphic file (type bmp)
 <figure/sim_result.png>
 File: figure/mg_relation.png Graphic file (type bmp)
 <figure/mg_relation.png>
-File: figure/gamma.p
+File: figure/gamma.png Graphic file (type bmp)
+<figure/gamma.png>
+[5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6] (./mnras_template.bbl
+LaTeX Info: Redefining \VAN on input line 1.
+ [7]) [8
+
+] (./mnras_template.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.5pt have occurred.
+
+Package rerunfilecheck Info: File `mnras_template.out' has not changed.
+(rerunfilecheck)             Checksum: 89BB897D96ABB3571C755F6A6B336986;1452.
+ ) 
+Here is how much of TeX's memory you used:
+ 19845 strings out of 476191
+ 401654 string characters out of 5812072
+ 744587 words of memory out of 5000000
+ 40296 multiletter control sequences out of 15000+600000
+ 506796 words of font info for 126 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 88i,15n,99p,2080b,959s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on mnras_template.pdf (8 pages).
