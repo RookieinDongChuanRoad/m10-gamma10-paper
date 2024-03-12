@@ -3,48 +3,54 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: mnras_template.aux
 The style file: mnras.bst
 Database file #1: example.bib
+Reallocated buffer (elt_size=1) to 40000 items from 20000.
+Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
+Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
+Reallocated out_buf (elt_size=1) to 40000 items from 20000.
+Reallocated name_tok (elt_size=4) to 40000 items from 20000.
+Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty publisher in Amaro_rejection_2021
-You've used 52 entries,
+You've used 56 entries,
             2881 wiz_defined-function locations,
-            1153 strings with 33758 characters,
-and the built_in function-call counts, 24093 in all, are:
-= -- 2064
-> -- 1655
-< -- 86
-+ -- 725
-- -- 231
-* -- 3054
-:= -- 3675
+            1189 strings with 60892 characters,
+and the built_in function-call counts, 26100 in all, are:
+= -- 2291
+> -- 1726
+< -- 91
++ -- 760
+- -- 233
+* -- 3281
+:= -- 3923
 add.period$ -- 0
-call.type$ -- 52
-change.case$ -- 104
-chr.to.int$ -- 52
-cite$ -- 53
-duplicate$ -- 1190
-empty$ -- 1189
-format.name$ -- 401
-if$ -- 4200
+call.type$ -- 56
+change.case$ -- 112
+chr.to.int$ -- 56
+cite$ -- 57
+duplicate$ -- 1307
+empty$ -- 1295
+format.name$ -- 417
+if$ -- 4599
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 51
-newline$ -- 170
-num.names$ -- 328
-pop$ -- 231
+missing$ -- 55
+newline$ -- 182
+num.names$ -- 346
+pop$ -- 253
 preamble$ -- 1
-purify$ -- 208
+purify$ -- 224
 quote$ -- 0
-skip$ -- 727
+skip$ -- 821
 stack$ -- 0
-substring$ -- 1484
-swap$ -- 574
-text.length$ -- 211
+substring$ -- 1674
+swap$ -- 633
+text.length$ -- 228
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 468
+type$ -- 504
 warning$ -- 1
-while$ -- 374
+while$ -- 400
 width$ -- 0
-write$ -- 533
+write$ -- 573
 (There was 1 warning)

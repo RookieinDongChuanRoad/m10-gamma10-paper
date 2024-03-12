@@ -106,6 +106,12 @@ Dokkum P. G.~v.,  Franx M.,  1996, \mn@doi [\mnras] {10.1093/mnras/281.3.985},
 {Driver} S.~P.,  et~al., 2022, \mn@doi [\mnras] {10.1093/mnras/stac472}, \href
   {https://ui.adsabs.harvard.edu/abs/2022MNRAS.513..439D} {513, 439}
 
+\bibitem[\protect\citeauthoryear{{Eisenstein} et~al.,}{{Eisenstein}
+  et~al.}{2023}]{Eisenstein_JADES}
+{Eisenstein} D.~J.,  et~al., 2023, \mn@doi [arXiv e-prints]
+  {10.48550/arXiv.2306.02465}, \href
+  {https://ui.adsabs.harvard.edu/abs/2023arXiv230602465E} {p. arXiv:2306.02465}
+
 \bibitem[\protect\citeauthoryear{{Euclid Collaboration} et~al.,}{{Euclid
   Collaboration} et~al.}{2022}]{Euclid}
 {Euclid Collaboration} et~al., 2022, \mn@doi [\aap]
@@ -121,6 +127,11 @@ Fagioli M.,  Carollo C.~M.,  Renzini A.,  Lilly S.~J.,  Onodera M.,   Tacchella
   et~al.}{2008}]{fan_dramatic_2008}
 Fan L.,  Lapi A.,  De~Zotti G.,   Danese L.,  2008, \mn@doi [\apj]
   {10.1086/595784}, 689, L101
+
+\bibitem[\protect\citeauthoryear{{Gardner} et~al.,}{{Gardner}
+  et~al.}{2023}]{Gardner_JWST}
+{Gardner} J.~P.,  et~al., 2023, \mn@doi [\pasp] {10.1088/1538-3873/acd1b5},
+  \href {https://ui.adsabs.harvard.edu/abs/2023PASP..135f8001G} {135, 068001}
 
 \bibitem[\protect\citeauthoryear{{Geller}, {Hwang}, {Fabricant}, {Kurtz},
   {Dell'Antonio}  \& {Zahid}}{{Geller} et~al.}{2014}]{Geller14}
@@ -216,10 +227,19 @@ Oser L.,  Naab T.,  Ostriker J.~P.,   Johansson P.~H.,  2011, \mn@doi [\apj]
 {Sonnenfeld} A.,  2020, \mn@doi [\aap] {10.1051/0004-6361/202037665}, \href
   {https://ui.adsabs.harvard.edu/abs/2020A&A...641A.143S} {641, A143}
 
+\bibitem[\protect\citeauthoryear{{Sonnenfeld}}{{Sonnenfeld}}{2022}]{Ale22_spiral}
+{Sonnenfeld} A.,  2022, \mn@doi [\aap] {10.1051/0004-6361/202142786}, \href
+  {https://ui.adsabs.harvard.edu/abs/2022A&A...659A.141S} {659, A141}
+
 \bibitem[\protect\citeauthoryear{Sonnenfeld, Nipoti  \& Treu}{Sonnenfeld
   et~al.}{2014}]{sonnenfeld2014}
 Sonnenfeld A.,  Nipoti C.,   Treu T.,  2014, \mn@doi [\apj]
   {10.1088/0004-637X/786/2/89}, 786, 89
+
+\bibitem[\protect\citeauthoryear{{Suess} et~al.,}{{Suess}
+  et~al.}{2023}]{Suess2023}
+{Suess} K.~A.,  et~al., 2023, \mn@doi [\apjl] {10.3847/2041-8213/acf5e6}, \href
+  {https://ui.adsabs.harvard.edu/abs/2023ApJ...956L..42S} {956, L42}
 
 \bibitem[\protect\citeauthoryear{{Tal} \& {van Dokkum}}{{Tal} \& {van
   Dokkum}}{2011}]{tal_2011_faint}
