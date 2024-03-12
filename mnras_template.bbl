@@ -29,6 +29,12 @@ pp 245--264, \mn@doi{10.1007/978-3-030-65867-0_11}
   {10.1111/j.1365-2966.2010.16282.x}, \href
   {https://ui.adsabs.harvard.edu/abs/2010MNRAS.404...86B} {404, 86}
 
+\bibitem[\protect\citeauthoryear{{Balogh}, {Morris}, {Yee}, {Carlberg}  \&
+  {Ellingson}}{{Balogh} et~al.}{1999}]{Balogh99}
+{Balogh} M.~L.,  {Morris} S.~L.,  {Yee} H.~K.~C.,  {Carlberg} R.~G.,
+  {Ellingson} E.,  1999, \mn@doi [\apj] {10.1086/308056}, \href
+  {https://ui.adsabs.harvard.edu/abs/1999ApJ...527...54B} {527, 54}
+
 \bibitem[\protect\citeauthoryear{{Belli}, {Newman}  \& {Ellis}}{{Belli}
   et~al.}{2015}]{Belli_2015}
 {Belli} S.,  {Newman} A.~B.,   {Ellis} R.~S.,  2015, \mn@doi [\apj]
@@ -44,6 +50,12 @@ Bellstedt S.,  et~al., 2020, \mn@doi [\mnras] {10.1093/mnras/staa1466}, 496,
   Charlot}{2003}]{bruzual_2003}
 Bruzual G.,  Charlot S.,  2003, \mn@doi [\mnras]
   {10.1046/j.1365-8711.2003.06897.x}, 344, 1000
+
+\bibitem[\protect\citeauthoryear{{Bundy}, {Leauthaud}, {Saito}, {Maraston},
+  {Wake}  \& {Thomas}}{{Bundy} et~al.}{2017}]{Bundy2017}
+{Bundy} K.,  {Leauthaud} A.,  {Saito} S.,  {Maraston} C.,  {Wake} D.~A.,
+  {Thomas} D.,  2017, \mn@doi [\apj] {10.3847/1538-4357/aa9896}, \href
+  {https://ui.adsabs.harvard.edu/abs/2017ApJ...851...34B} {851, 34}
 
 \bibitem[\protect\citeauthoryear{{Calzetti}, {Armus}, {Bohlin}, {Kinney},
   {Koornneef}  \& {Storchi-Bergmann}}{{Calzetti} et~al.}{2000}]{calzetti2000}
@@ -94,6 +106,12 @@ Dokkum P. G.~v.,  Franx M.,  1996, \mn@doi [\mnras] {10.1093/mnras/281.3.985},
 {Driver} S.~P.,  et~al., 2022, \mn@doi [\mnras] {10.1093/mnras/stac472}, \href
   {https://ui.adsabs.harvard.edu/abs/2022MNRAS.513..439D} {513, 439}
 
+\bibitem[\protect\citeauthoryear{{Euclid Collaboration} et~al.,}{{Euclid
+  Collaboration} et~al.}{2022}]{Euclid}
+{Euclid Collaboration} et~al., 2022, \mn@doi [\aap]
+  {10.1051/0004-6361/202141938}, \href
+  {https://ui.adsabs.harvard.edu/abs/2022A&A...662A.112E} {662, A112}
+
 \bibitem[\protect\citeauthoryear{Fagioli, Carollo, Renzini, Lilly, Onodera  \&
   Tacchella}{Fagioli et~al.}{2016}]{fagioliMinorMergersProgenitor2016}
 Fagioli M.,  Carollo C.~M.,  Renzini A.,  Lilly S.~J.,  Onodera M.,   Tacchella
@@ -103,6 +121,13 @@ Fagioli M.,  Carollo C.~M.,  Renzini A.,  Lilly S.~J.,  Onodera M.,   Tacchella
   et~al.}{2008}]{fan_dramatic_2008}
 Fan L.,  Lapi A.,  De~Zotti G.,   Danese L.,  2008, \mn@doi [\apj]
   {10.1086/595784}, 689, L101
+
+\bibitem[\protect\citeauthoryear{{Geller}, {Hwang}, {Fabricant}, {Kurtz},
+  {Dell'Antonio}  \& {Zahid}}{{Geller} et~al.}{2014}]{Geller14}
+{Geller} M.~J.,  {Hwang} H.~S.,  {Fabricant} D.~G.,  {Kurtz} M.~J.,
+  {Dell'Antonio} I.~P.,   {Zahid} H.~J.,  2014, \mn@doi [VizieR Online Data
+  Catalog] {10.26093/cds/vizier.22130035}, \href
+  {https://ui.adsabs.harvard.edu/abs/2014yCat..22130035G} {p. J/ApJS/213/35}
 
 \bibitem[\protect\citeauthoryear{{Gordon} et~al.,}{{Gordon}
   et~al.}{2017}]{Gordon_GAMAspecline_2017}
@@ -128,6 +153,12 @@ Hopkins P.~F.,  Bundy K.,  Hernquist L.,  Wuyts S.,   Cox T.~J.,  2010, \mn@doi
   et~al.}{2013}]{GAMA2}
 {Hopkins} A.~M.,  et~al., 2013, \mn@doi [\mnras] {10.1093/mnras/stt030}, \href
   {https://ui.adsabs.harvard.edu/abs/2013MNRAS.430.2047H} {430, 2047}
+
+\bibitem[\protect\citeauthoryear{{Kauffmann} et~al.,}{{Kauffmann}
+  et~al.}{2003}]{Kauffmann2003}
+{Kauffmann} G.,  et~al., 2003, \mn@doi [\mnras]
+  {10.1046/j.1365-8711.2003.06291.x}, \href
+  {https://ui.adsabs.harvard.edu/abs/2003MNRAS.341...33K} {341, 33}
 
 \bibitem[\protect\citeauthoryear{Kuijken et~al.,}{Kuijken
   et~al.}{2019}]{kuijken_fourth_2019}
@@ -223,6 +254,15 @@ Trujillo I.,  et~al., 2006, \mn@doi [\mnras]
 Trujillo I.,  Conselice C.~J.,  Bundy K.,  Cooper M.~C.,  Eisenhardt P.,
   Ellis R.~S.,  2007, \mn@doi [\mnras] {10.1111/j.1365-2966.2007.12388.x}, 382,
   109
+
+\bibitem[\protect\citeauthoryear{{Utsumi} et~al.,}{{Utsumi}
+  et~al.}{2016}]{HSC16}
+{Utsumi} Y.,  et~al., 2016, \mn@doi [\apj] {10.3847/1538-4357/833/2/156}, \href
+  {https://ui.adsabs.harvard.edu/abs/2016ApJ...833..156U} {833, 156}
+
+\bibitem[\protect\citeauthoryear{Zhan}{Zhan}{2021}]{csst}
+Zhan H.,  2021, \mn@doi [Chinese Science Bulletin]
+  {https://doi.org/10.1360/TB-2021-0016}, 66, 1290
 
 \bibitem[\protect\citeauthoryear{{van Dokkum} \& {Brammer}}{{van Dokkum} \&
   {Brammer}}{2010}]{van_dokkum_2010_hubble}

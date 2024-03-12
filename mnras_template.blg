@@ -6,45 +6,45 @@ Database file #1: example.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty publisher in Amaro_rejection_2021
-You've used 45 entries,
+You've used 52 entries,
             2881 wiz_defined-function locations,
-            1090 strings with 26276 characters,
-and the built_in function-call counts, 20558 in all, are:
-= -- 1752
-> -- 1418
-< -- 75
-+ -- 621
-- -- 195
-* -- 2619
-:= -- 3154
+            1153 strings with 33758 characters,
+and the built_in function-call counts, 24093 in all, are:
+= -- 2064
+> -- 1655
+< -- 86
++ -- 725
+- -- 231
+* -- 3054
+:= -- 3675
 add.period$ -- 0
-call.type$ -- 45
-change.case$ -- 90
-chr.to.int$ -- 45
-cite$ -- 46
-duplicate$ -- 1010
-empty$ -- 1020
-format.name$ -- 345
-if$ -- 3561
+call.type$ -- 52
+change.case$ -- 104
+chr.to.int$ -- 52
+cite$ -- 53
+duplicate$ -- 1190
+empty$ -- 1189
+format.name$ -- 401
+if$ -- 4200
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 44
-newline$ -- 149
-num.names$ -- 286
-pop$ -- 197
+missing$ -- 51
+newline$ -- 170
+num.names$ -- 328
+pop$ -- 231
 preamble$ -- 1
-purify$ -- 180
+purify$ -- 208
 quote$ -- 0
-skip$ -- 600
+skip$ -- 727
 stack$ -- 0
-substring$ -- 1254
-swap$ -- 475
-text.length$ -- 182
+substring$ -- 1484
+swap$ -- 574
+text.length$ -- 211
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 405
+type$ -- 468
 warning$ -- 1
-while$ -- 324
+while$ -- 374
 width$ -- 0
-write$ -- 463
+write$ -- 533
 (There was 1 warning)

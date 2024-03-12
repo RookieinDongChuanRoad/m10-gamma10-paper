@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.3.20)  10 JAN 2024 11:31
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.3.20)  17 JAN 2024 15:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -775,70 +775,91 @@ LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 90.
 Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
  -> /usr/share/texlive/texmf-dist/fonts/opentype/public/newtx/TeXGyreTermesX-Regular.otf
-LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 99.
-Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
- -> /usr/share/texlive/texmf-dist/fonts/opentype/public/newtx/TeXGyreTermesX-Bold.otf
-Requested font "ntx-Regular-tlf-ot1" at 9.0pt
+Requested font "ntx-Regular-tlf-ot1" at 10.0pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-ot1.tfm
 Requested font "ntx-Regular-tlf-ot1" at 7.3pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-ot1.tfm
 Requested font "ntx-Regular-tlf-ot1" at 5.5pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-ot1.tfm
-Requested font "ntxmi" at 9.0pt
+Requested font "ntxmi" at 10.0pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
 Requested font "ntxmi7" at 7.3pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxmi7.tfm
 Requested font "ntxmi5" at 5.5pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxmi5.tfm
-Requested font "ntxsy" at 9.0pt
+Requested font "ntxsy" at 10.0pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxsy.tfm
 Requested font "ntxsy7" at 7.3pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxsy7.tfm
 Requested font "ntxsy5" at 5.5pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxsy5.tfm
-Requested font "ntxexx" at 9.0pt
+Requested font "ntxexx" at 10.0pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
 Requested font "ntxexx" at 7.3pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
 Requested font "ntxexx" at 5.5pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
+Requested font "cmmib10" at 10.0pt
+ -> /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 109.
+(Font)              size <5> substituted on input line 91.
 
 Requested font "cmmib5" at 5.0pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
-Requested font "ntxmia" at 9.0pt
+Requested font "ntxmia" at 10.0pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
 Requested font "ntxmia" at 7.3pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
 Requested font "ntxmia" at 5.5pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
-Requested font "ntxsym" at 9.0pt
+Requested font "ntxsym" at 10.0pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
 Requested font "ntxsym" at 7.3pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
 Requested font "ntxsym" at 5.5pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
-Requested font "ntxsyc" at 9.0pt
+Requested font "ntxsyc" at 10.0pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
 Requested font "ntxsyc" at 7.3pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
 Requested font "ntxsyc" at 5.5pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
-Requested font "ntxexa" at 9.0pt
+Requested font "ntxexa" at 10.0pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 Requested font "ntxexa" at 7.3pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 Requested font "ntxexa" at 5.5pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
+(Font)              scaled to size 10.0pt on input line 96.
+Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
+ -> /usr/share/texlive/texmf-dist/fonts/opentype/public/newtx/TeXGyreTermesX-Bold.otf
+Requested font "ntx-Regular-tlf-ot1" at 9.0pt
+ -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-ot1.tfm
+Requested font "ntxmi" at 9.0pt
+ -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxmi.tfm
+Requested font "ntxsy" at 9.0pt
+ -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxsy.tfm
+Requested font "ntxexx" at 9.0pt
+ -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
+Requested font "ntxmia" at 9.0pt
+ -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
+Requested font "ntxsym" at 9.0pt
+ -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
+Requested font "ntxsyc" at 9.0pt
+ -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
+Requested font "ntxexa" at 9.0pt
+ -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
+Underfull \vbox (badness 7869) has occurred while \output is active []
+
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 127.
+(Font)              scaled to size 8.0pt on input line 124.
 Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 8.0pt
  -> /usr/share/texlive/texmf-dist/fonts/opentype/public/newtx/TeXGyreTermesX-Bold.otf
 Requested font "ntx-Regular-tlf-ot1" at 8.0pt
@@ -878,7 +899,7 @@ Requested font "ntxexa" at 8.0pt
 Requested font "ntxexa" at 6.2pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 6.2pt on input line 127.
+(Font)              scaled to size 6.2pt on input line 124.
 Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 6.2pt
  -> /usr/share/texlive/texmf-dist/fonts/opentype/public/newtx/TeXGyreTermesX-Regular.otf
  [1
@@ -888,28 +909,22 @@ Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;
 File: figure/enclosed_mag.png Graphic file (type bmp)
 <figure/enclosed_mag.png>
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 182.
+(Font)              scaled to size 9.0pt on input line 180.
 Requested font "[TeXGyreTermesX-Italic.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 9.0pt
  -> /usr/share/texlive/texmf-dist/fonts/opentype/public/newtx/TeXGyreTermesX-Italic.otf
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 223.
+(Font)              scaled to size 12.0pt on input line 202.
 Requested font "[TeXGyreTermesX-Italic.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 12.0pt
  -> /usr/share/texlive/texmf-dist/fonts/opentype/public/newtx/TeXGyreTermesX-Italic.otf
- [2]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+ [2] [3]
 File: figure/m2f_ratio.png Graphic file (type bmp)
 <figure/m2f_ratio.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3]
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 7.3pt on input line 241.
+(Font)              scaled to size 7.3pt on input line 239.
 Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 7.3pt
  -> /usr/share/texlive/texmf-dist/fonts/opentype/public/newtx/TeXGyreTermesX-Regular.otf
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 5.5pt on input line 241.
+(Font)              scaled to size 5.5pt on input line 239.
 Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 5.5pt
  -> /usr/share/texlive/texmf-dist/fonts/opentype/public/newtx/TeXGyreTermesX-Regular.otf
 File: figure/completeness_cut.png Graphic file (type bmp)
@@ -917,31 +932,31 @@ File: figure/completeness_cut.png Graphic file (type bmp)
  [4]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 325.
+(hyperref)                removing `math shift' on input line 323.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 325.
+(hyperref)                removing `subscript' on input line 323.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 325.
+(hyperref)                removing `math shift' on input line 323.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 325.
+(hyperref)                removing `math shift' on input line 323.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Gamma' on input line 325.
+(hyperref)                removing `\Gamma' on input line 323.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 325.
+(hyperref)                removing `subscript' on input line 323.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 325.
+(hyperref)                removing `math shift' on input line 323.
 
 File: figure/circularised.png Graphic file (type bmp)
 <figure/circularised.png>
@@ -954,25 +969,26 @@ File: figure/gamma.png Graphic file (type bmp)
 [5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6] (./mnras_template.bbl
-LaTeX Info: Redefining \VAN on input line 1.
- [7]) [8
+ [6]
+Underfull \vbox (badness 2744) has occurred while \output is active []
 
-] (./mnras_template.aux)
+ [7] [8] (./mnras_template.bbl
+LaTeX Info: Redefining \VAN on input line 1.
+) [9] (./mnras_template.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
 Package rerunfilecheck Info: File `mnras_template.out' has not changed.
-(rerunfilecheck)             Checksum: 89BB897D96ABB3571C755F6A6B336986;1452.
+(rerunfilecheck)             Checksum: 0B1FEBCE71AC6155C5B1DB124BE0C36D;2071.
  ) 
 Here is how much of TeX's memory you used:
- 19845 strings out of 476191
- 401654 string characters out of 5812072
- 744587 words of memory out of 5000000
- 40296 multiletter control sequences out of 15000+600000
- 506796 words of font info for 126 fonts, out of 8000000 for 9000
+ 19876 strings out of 476191
+ 402135 string characters out of 5812072
+ 746737 words of memory out of 5000000
+ 40327 multiletter control sequences out of 15000+600000
+ 511189 words of font info for 135 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 88i,15n,99p,2080b,959s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 88i,15n,99p,2080b,798s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on mnras_template.pdf (8 pages).
+Output written on mnras_template.pdf (9 pages).
