@@ -35,6 +35,7 @@
 % Don't change these lines unless you know what you are doing
 \usepackage[T1]{fontenc}
 \usepackage{float}
+\usepackage{enumerate}
 
 % Allow "Thomas van Noord" and "Simon de Laguarde" and alike to be sorted by "N" and "L" etc. in the bibliography.
 % Write the name in the bibliography as "\VAN{Noord}{Van}{van} Noord, Thomas"
@@ -102,28 +103,38 @@ keyword1 -- keyword2 -- keyword3
 %%%%%%%%%%%%%%%%% BODY OF PAPER %%%%%%%%%%%%%%%%%%
 
 \section{Introduction}
+\label{sec:intro}
 % \cite{van_dokkum_1996}
-\par Early type galaxies (ETGs), which are typically elliptical in shape, are believed to have complete most of their star-forming activities before the epoch of $z \approx 2$ and are passively evolved afterwards. Over the past few decades, observations have suggested that these quenched ETGs are much more compact than their counterpart at $z \approx 0$ \citep{daddiPassivelyEvolvingEarlyType2005, toft2007, trujillo2006, trujillo2007, vandokkum2008}. As a consequence, this passive evolution process of these quiescent, ultra-compact objects experienced are believed to have induced a dramatic growth in size, in particular, by about a factor of 3 between $z = 2$ and $z = 0$ \citep{damjanov2019, fan_dramatic_2008, hamadouche2022, vanderwel3DHSTCANDELSEvolution2014, van_dokkum_growth_2010}.
+\par Early type galaxies (ETGs), which are typically elliptical in shape, are believed to have complete most of their star-forming activities before the epoch of $z \approx 2$ and are passively evolved afterwards.Besides the focus on what mechanism that shut down the star formation, the passive evolving process of these galaxies is also a highly debated subjects in the field of galaxy evolution.Obtaining a better understanding on this process could help us better understand the hierarchical structure formation theory, which is a fundamental theory in $\Lambda$CDM cosmology.
+\par  Over the past few decades, observations have suggested that quenched ETGs are much more compact than their counterpart at $z \approx 0$ \citep{daddiPassivelyEvolvingEarlyType2005, toft2007, trujillo2006, trujillo2007, vandokkum2008}. As a consequence, the passive evolution process of the quiescent, ultra-compact objects experienced are believed to have induced a dramatic growth in size, in particular, by about a factor of 3 between $z = 2$ and $z = 0$ \citep{damjanov2019, fan_dramatic_2008, hamadouche2022, vanderwel3DHSTCANDELSEvolution2014, van_dokkum_growth_2010}.
 % have a more significant growth in size comparing to their star-forming counterpart.
 % Currently, the most popular formation scenario of ETGs consists of two phases. At early time ($z > 2$), proto-ellipticals are formed in an intense star-forming activities with strong gas dissipation process which drive these galaxies to be extremely compact. Most of the stellar mass of such systems are gained through this first phase of formation. While in the second phase, it is well agreed that the growth was dominated by minor mergers, resulting in a "puffing-up" in size and a moderate growth in stellar mass.
-\par Given that the star formation rate of these ETGs are relatively low, \cite{van_dokkum_growth_2010} suggested that the these galaxies should have experienced a built-up process of their outer envelope since $z \approx 1.5$ via some form of merging and accretion.
+Given that the star formation rate of these ETGs are relatively low, \cite{van_dokkum_growth_2010} suggested that the these galaxies should have experienced a built-up process of their outer envelope since $z \approx 1.5$ via some form of merging and accretion.
 % Numerous works in literature have discovered that the dissipationless dry mergers could be one possible major mechanism that attribute to that rapid size growth. 
-In fact, different merger ratios are believed to be able to leave different impacts on various properties of galaxies. Numerous works in literature that based on both observations and hydrodynamic simulations have suggested that the dissipationless dry mergers might be the major growth mechanism, as it could explain the evolution in size, density profile, central densities and  orbital structures of these quiescent galaxies 
+% In fact, different merger ratios are believed to be able to leave different impacts on various properties of galaxies.
+ Numerous works in literature that based on both observations and hydrodynamic simulations have suggested that the dissipationless dry mergers might be the major growth mechanism, as it could explain the evolution in size, density profile, central densities and  orbital structures of these quiescent galaxies 
 \citep{naab_minor_2009, van_dokkum_2010_hubble, oser_cosmological_2011, newman2012, hilz_how_2013, dekel_wet_2014, deugenio2023}. In particular, minor mergers, which means the mass ratio between the accreted galaxy and the progenitor galaxy is relatively small, are believed to have dominated the merger event that one galaxy might experience, especially for mergers with mass ratio around 1:10 \citep{newman2012, Belli_2015}. Taking the advantage of the depth and resolution of JWST Advanced Deep Extragalatic Survey \citep{Gardner_JWST,Eisenstein_JADES}, we are enabled to detect very low mass ratio ($ \leq 1:100$)mergers.The result also suggest that mergers with ratio close to 1:10 are likely to drive the size growth while lower mass ratio mergers might dominate the color gradients evolution \citep{Suess2023}. 
-\par However, at redshift $z \geq 1$, minor mergers alone seems insufficient. Both observations and prediction seems to suggested a more rapid growth rate due to the accretion with satellite galaxies, comparing to the predicted value we made with the assumption that all the accreted mass are from minor mergers \citep{hopkins_discriminating_2010,nipoti2009}.The evolution in the density slope of galaxies in this minor merger scenario might also not be consistent with observations \citep{sonnenfeld2014}. While at intermediate redshift, a mass-dependent growth rate is suggested, but the result seems less conclusive. \cite{vanderwel3DHSTCANDELSEvolution2014,KiDs_Roy} found out that the massive ETGs ($M_* \geq 10^{11} M_\odot$)are likely to grows most rapid in size, comparing to less massive counterparts. While \cite{damjanov2019} suggest a contrast trend, she found the size growth of massive quiescent galaxies are significantly slower than that of less massive ones. She suggested that mechanism that drives the size growth may have altered in this intermediate redshift range, thus detailed observation should pay more attention to that epoch.In addition, to further investigate this issue, we also need to deal with the systematics carefully. Among various systematics, the progenitor bias is one that commonly addressed in literature. The population of quiescent galaxies are not static, star-forming galaxies could be quenched and join the quiescent population continuously.If these "fresh bloods" are relatively larger,the change in demography could thus mimic the evolution in average size that minor merger process may induce\citep{van_dokkum_1996,carolloNEWLYQUENCHEDGALAXIES2013, fagioliMinorMergersProgenitor2016, vandokkumMorphologicalEvolutionAges2001}.
-A detailed theoretical model are still in absence to explained what 
+\par However, although minor merger scenario has made a great success in explaining the evolution of ETGs, there's still some issues that has not been solved. For instance, at redshift $z \geq 1$, minor mergers alone seems insufficient. Both observations and prediction seems to suggested a more rapid growth rate due to the accretion with satellite galaxies, comparing to the predicted value we made with the assumption that all the accreted mass are from minor mergers \citep{hopkins_discriminating_2010,nipoti2009}.The evolution in the density slope of galaxies in this minor merger scenario might also not be consistent with observations \citep{sonnenfeld2014}. While at intermediate redshift, a mass-dependent growth rate is suggested, but the result seems less conclusive. \cite{vanderwel3DHSTCANDELSEvolution2014,KiDs_Roy} found out that the massive ETGs ($M_* \geq 10^{11} M_\odot$)are likely to grows most rapid in size, comparing to less massive counterparts. While \cite{damjanov2019} suggest a contrast trend, she found the size growth of massive quiescent galaxies are significantly slower than that of less massive ones. She suggested that mechanism that drives the size growth may have altered in this intermediate redshift range, thus detailed observation should pay more attention to that epoch. In fact, taking the result from \cite{Bundy2017} into consideration, which do not suggest a significant growth in number density of massive ETGs during $0.3 < z < 0.65$, we cannot conclude for sure if and how that quiescent galaxies grow at this intermediate redshift range.
+\par To further investigate this issue, we also need to deal with the systematics carefully.The existence of systematics would limit our ability to measure the growth of ETGs precisely.
+ Among various systematics, the progenitor bias is one that commonly addressed in literature. The population of quiescent galaxies are not static, star-forming galaxies could be quenched and join the quiescent population continuously.If these "fresh bloods" are relatively larger,the change in demography could thus mimic the evolution in average size that minor merger process may induce\citep{van_dokkum_1996,carolloNEWLYQUENCHEDGALAXIES2013, fagioliMinorMergersProgenitor2016, vandokkumMorphologicalEvolutionAges2001}.
+% A detailed theoretical model are still in absence to explained what 
 In fact, our understanding about the growth of quiescent galaxies could still be improved, a detailed theoretical model that could take some additional minor mechanisms (e.g. major mergers) and possible systematic (e.g. progenitor bias) into account is still in absence.
-\par Besides, another possible systematic might be ignored in the literature.The problem arise from the finite photometric depth of observations. it is hard to measure the total light directly \citep{tal_2011_faint} as the information where the surface brightness of galaxies drops below the observation limit remains unknown. To obtain a accurate measurement of the total light, a precise sky-subtraction is demanded while it is easy to bring additional systematic. In literature, we use various models to fit the surface brightness distribution of galaxies . The faint outskirt of galaxies could not provide reliable constrains during the fitting process, thus the model could not be able to provide reliable descriptions for surface brightness there . These unreliable data will be accounted in the total light measurement and will take up an ineligible fraction(up to 20\% according to \cite{Alessandro20}).However, the traditional definition of galaxy size and mass derived from the best-fit model are both associated with the total light, therefore we believe they are not robust qualities. 
+\par Besides, another possible systematic might be ignored in the literature.The problem arise from the finite photometric depth of observations.It is hard to measure the total light directly \citep{tal_2011_faint} as the information where the surface brightness of galaxies drops below the observation limit remains unknown. To obtain a accurate measurement of the total light, a precise sky-subtraction is demanded, while it is easy to bring additional systematic. In literature, we use various models to fit the surface brightness distribution of galaxies . The faint outskirt of galaxies could not provide reliable constrains during the fitting process, thus the model could not be able to provide reliable descriptions for surface brightness there . These unreliable data will be accounted in the total light measurement and will take up an ineligible fraction\citep{Alessandro20}.However, the traditional definition of galaxy size and mass derived from the best-fit model are both associated with the total light, therefore we believe they are not robust qualities. 
 % Both half-light radius and total stellar mass that derived from the best-fit model are associated with total light , and thus we believe that the traditional definition of galaxy size and mass is not robust. 
-\par The main goal of this work is to eliminate the possible bias that introduced by the data measured in the unreliable outer region of galaxies. 
+\par One of the main goal of this work is to eliminate the possible bias that introduced by the data measured in the unreliable outer region of galaxies. 
 % In order to eliminate the influence of unreliable data in the outer region of galaxies, 
-We switch our focus from the entire galaxy to a fixed, relatively small aperture and investigate some properties inside, following the method proposed in \cite{Alessandro20}. In this work, we choose 10kpc as that aperture,in consideration that it is large enough to enclose sufficient amount of stellar mass while will not be too large to suffer from the extrapolation problem. We use $M_{*,10}$ to denote the mass enclosed inside 10kpc and $\Gamma_{*,10}$ to represent to mass-weighted projected surface density slope.The latter is defined as
+In particular, we switch our focus from the entire galaxy to a fixed, relatively small aperture following the method proposed in \cite{Alessandro20}. In this work, we choose 10kpc as that aperture,in consideration that it is large enough to enclose sufficient amount of stellar mass while will not be too large to suffer from the extrapolation problem. We use $M_{*,10}$ to denote the mass enclosed inside 10kpc and $\Gamma_{*,10}$ to represent to mass-weighted projected surface density slope.The latter is defined as
 \begin{equation}
     \label{eq:gammastar10}
     \Gamma_{*,10} = \frac{2\pi \int_0^{10} R \frac{dlog\Sigma_*}{dlogR}\Sigma_*(R)dR}{2\pi \int_0^{10}R\Sigma_*(R)dR} = 2 - \frac{2\pi \times 10^2 \times \Sigma_*(10)}{M_{*,10}}
 \end{equation} 
+We replace the traditional definition of galaxy size(effective radius $R_e$) and stellar mass($M_*$) with these two quantities, thus the relation between $M_{*,10}$ and $\Gamma_{*,10}$ could provide a new insight into the traditional scaling relation. With the help of these new robust quantities, we hope to answer the following questions:
+\begin{enumerate}[1.]
+    \item Whether quiescent galaxies grow in a given redshift range?
+    \item If galaxies do growth, what could be the possible mechanisms that drive the growth?
+\end{enumerate}
 % \par In context of merger, the growth in size of one single galaxies can be approximated by Virial Theorem, assuming a isothermal density profile( \cite{naab_minor_2009}).
-\par Assuming a isothermal density profile for elliptical galaxy, the growth in total stellar mass and effective radius due to mergers can be approximated by some simple formulas using virial theorem\citep{naab_minor_2009}.
+\par Therefore, it's necessary to understand the impact of various growth mechanism, in particular, mergers with diferent merger ratio. Assuming a isothermal density profile for elliptical galaxy, the growth in total stellar mass and effective radius due to mergers can be approximated by some simple formulas using virial theorem\citep{naab_minor_2009}.
 %  we can obtain a strict relation between $\Delta M_*$ and $\Delta R_e$ depending on different merger scenarios
  . However, switching to $M_{*,10}$ and $\Gamma_{*,10}$ space, it's hard to derive a relation in $\Delta M_{*,10}$ and $\Delta \Gamma_{*,10}$ analytically as a fixed aperture size 10kpc is involved. Nevertheless, N-body simulations can be helpful. We utilize the simulation result from \cite{nipoti2009} which contains a number of binary mergers with different mass ratio. We measure the $M_{*,10}$ and $\Gamma_{*,10}$ of both progenitor and merger remnant and calculate the growth in these two quantities. In addition to finding that different merger ratio behaves differently, we also discovered that the scale of galaxy also make diferences. 
 \par Having find how the $M_{*,10}$ and $\Gamma_{*,10}$ under different growth scenarios, we then compared them with the evolution of these two quantities in reality. We select ETGs from GAMA DR4 main survey (Galaxy and Mass Assembly, \cite{GAMAmain};\cite{bellstedt_galaxy_2020} ; \cite{GAMA1}; \cite{GAMA2}) and obtained precise spectroscopic redshift and other quantities that related to spectrum measurement, e.g. stellar mass. In addition, 
@@ -145,9 +156,10 @@ the structural parameter are measured from KiDs photometry (Kile Degree survey ,
 % \par In addition, these set of parameter automatically enable us to investigate whrere and how does the growth take place. \cite{Dokkum2010} invetigated this issue and found that the stellar mass inside 5kpc won't grow with time. The method he used is stacking the images of various galaxies, which is sensitive to sky subtraction and need to make some assumptions to galaxies, such as "all galaxies are identical". Up to now, we have better observations of ETGs, and it's not necessary to stack up the images. Therefore, we don't need the assumptions mentioned above and a free from the sensitivity of the sky subtraction, and we might be able to provide a more precise result about the grow in the region of one galaxy.   
 % \par In this work, we choose the ETG sample from Galaxy And Mass Assembly survey (GAMA \cite{GAMAmain}; \cite{GAMA1}; \cite{GAMA2}) and use photometric data from Kilo-Degree survey(KiDs \cite{KiDs_Roy}). We measured the $M_{*,10}, \Gamma_{*,10}$ using the Sersic parameter provided by KiDs catalogue and plot the $M_{*,10}$ function at different redshift to investigate the mass growth in the inner region of ETGs. We further studied the $M_{*,10}-\Gamma_{*,10}$ relation and it's redshift-dependent evolution.We find blablabla ......
 % \par The structure of this paper is as follows. In Sect.2, We described the spectroscopic and the photometric data from GAMA survey and KiDs survey respectively, and the method we use to ensure the completeness of sample. We present the result of growth of $M_{*,10}$ and $M_{*,10}-\Gamma_{*,10}$ relation in Sect.3  and discuss the result in Sect.4. Finally, We give a brief conclusion in Sect.6   
-\section{Data}
+% \section{Data}
 \label{sec:2}
-\subsection{Observation sample selection}
+\section{Observation}
+\subsection{Sample selection}
 \par Our goal of this work is to focus on the evolution of quiescent galaxies at intermediate redshift range and attempting to elliminate a possible systematic from the extrapolation problem by focusing on a fixed aperture size $10kpc$.We expect to select a sample that consist of quiescent galaxies with spectroscopic data, hence obtain reliable measurement of redshift, stellar mass,aperture size and could distinguish them from star-forming ones. In addition, as our requirement of focusing the inner region, we need to obtain the structural parameters of galaxies in order to calculate $M_{*,10}$ and $\Gamma_{*,10}$.
 \par Therefore, we choose to select galaxies based on GAMA DR4. 
 % select early type galaxies from GAMA DR4, which could provide reliable spectroscopic redshift measurement.
@@ -158,34 +170,22 @@ In practice, We  use DMU gkvScienceCatv02(\cite{bellstedt_galaxy_2020}) to selec
 The structural parameter are measured by GalNet(\cite{GaLNet2022}), which has operated a single S\'{e}rsic model fitting to the surface brightness of  KiDs DR5 galaxies(RUILI IN PREPARATION) using its r-band photometry.
 % Here we use  \textbf{2DPHOT structural parameter catalogue} provided in KiDs DR4 to obtain the Sersic parameters for our sample. In this catalogue, Napolitano use 2dPHOT (\cite{LaBarbera_2dphot_2008}) to operate a 1-S\'{e}rsic model fitting to KiDs DR4 galaxies using r-band photometry.
  We further exclude some galaxies with catastrophic measurement which gives ridiculous values of effective radius or stellar mass. Eventually we have 79672 ETGs with measurement of spectroscopic redshift, stellar mass and structural parameters.  
-\subsection{Structural parameter}
-As is mentioned above, the reason that we do not trust $M_*$ (total stellar mass) and $R_e$ (effective radius) in traditional structural parameters is the fact that they are related with the unreliable data in the outer region of a galaxies which can only be obtained by extrapolate the surface brightness model. However, we believe that best-fitting model is well-constrained by the inner region, and thus it is reasonable to use them describing shape of the surface brightness profile there. In particular, we utilize these structural parameters to calculate $M_{*,10}$ and $\Gamma_{*,10}$, the procedure of which is described in Sect.\ref{sec:cal}. 
-% \subsubsection{Magnitude distribution}
-% \par According to \cite{GAMAmain}, in GAMA DR4, the image were recently updated from original SDSS imaging to KiDs imaging. That means GAMA's footprint is overlapped by KiDs and hence enable us to use some measurement that has already been done by KiDs Collaboration. Here we use  2DPHOT structural parameter catalogue provided in KiDs DR4 to obtain the Sersic parameters for our sample. In this catalogue, Napolitano use 2dPHOT (\cite{LaBarbera_2dphot_2008}) to operate a 1-S\'{e}rsic model fitting to KiDs DR4 galaxies using r-band photometry. In addition, he excluded galaxies with bad fitting result(reduced $\chi^2 > 10$ )  or the magnitude detected by 2dPHOT has a large discrepancy with that detected by SEXTRACTOR ($|$MAG\_2dphot - MAG\_AUTO$|$  > 1). However, this exclusion process prefer some bright galaxies, which our work might need because our target is those bright, elliptical galaxies. We can found some galaxies in GAMA catalogue are not in KiDs catalogue, and distribution of those missed galaxies shows the preference on bright galaxies(Fig~\ref{fig:example} top). 
-% \begin{figure*}
-%     \subfigbottomskip=2pt
-% 	% To include a figure from a file named example.*
-% 	% Allowable file formats are eps or ps if compiling using latex
-% 	% or pdf, png, jpg if compiling using pdflatex
-%     \subfigure[fiducial sample]{
-% 	\includegraphics[width=0.45\linewidth]{figure/dr4_fiducial.png}
-%         }
-%     \subfigure[refined sample]{
-%         \includegraphics[width =0.45\linewidth]{figure/dr4_completed.png}
-%     }
-%     \caption{The distribution in magnitude of GAMA galaxies that are contained or missed in fiducial KiDs DR4 2DPHOT structural parameter catalogue or our refined catalogue.The yellow histogram shows the distribution in r-band magnitude of missed galaxies while the blue ones shows the galaxies that are contained.   }
-%     \label{fig:example}
-% \end{figure*}
-% \par To complete the catalogue, we first find the galaxies that are excluded and add them to the KiDs structural catalogue, made our 'refined catalogue'. Although there're still some galaxies that can' t be found in KiDs catalogue, the distribution of those galaxies shows no feature of preference(Fig~\ref{fig:example} bottom). This mismatch could be the consequence of some artefact in original SDSS photometry and has already been observed by \cite{bellstedt_galaxy_2020}, which we don't necessary to worry about.
+\subsection{$M_{*,10}$, $\Gamma_{*,10}$ measurement}
+As is mentioned above, we do not trust $M_*$ (total stellar mass) and $R_e$ (effective radius) in traditional structural parameters as they are related with the unreliable data in the faint outer region of a galaxies, which can only be obtained by extrapolate the surface brightness model.Consequently, we use a new set of parameters: $M_{*,10}$ and $\Gamma_{*,10}$ as replacement and focus on their relation and the evolution of such relation. In this work, we use S\'{e}rsic profile to model the surface brightness of galaxies, then calculate $M_{*,10}$ and $\Gamma_{*,10}$ using the S\'{e}rsic parameters, although it seems ridiculous as such procedure still involved using $M_*$ and $R_e$ which we claimed unreliable. In fact, we believe that best-fitting model is well-constrained by the inner region, and thus it is reasonable to use them describing the shape of the surface brightness profile there, in particular, $10kpc$.
+% However, we believe that best-fitting model is well-constrained by the inner region, and thus it is reasonable to use them describing shape of the surface brightness profile there.
+%  In particular, we utilize these structural parameters to calculate $M_{*,10}$ and $\Gamma_{*,10}$.
+% As is mentioned above, the reason that we do not trust $M_*$ (total stellar mass) and $R_e$ (effective radius) in traditional structural parameters is the fact that they are related with the unreliable data in the faint outer region of a galaxies which can only be obtained by extrapolate the surface brightness model. However, we believe that best-fitting model is well-constrained by the inner region, and thus it is reasonable to use them describing shape of the surface brightness profile there.
+%  In particular, we utilize these structural parameters to calculate $M_{*,10}$ and $\Gamma_{*,10}$.
+
 \begin{figure*}
     \centering
     \includegraphics[width=0.8\linewidth]{figure/enclosed_mag.png}
     \caption{The upper panel shows the enclosed magnitude within 10kpc aperture of 25 galaxies that are random selected from our sample. The blue solid line shows the best-fitting S\'{e}rsic model calculated using GalNet structural parameters, while the blue diamonds are directly measured from KiDs r-band image. The lower panel shows the difference between the two measurements. The vertical dashed cyan line shows the corresponding angular size of 10kpc of each galaxy.} 
     \label{fig:enclosed_magnitude}
 \end{figure*}
-\subsubsection{Surface brightness model}
+% \subsubsection{Surface brightness model}
 % \par Although we have complete the sample with those excluded galaxies, these galaxies are lack of accurate structural parameters. Therefore we need to fit the surface brightness ourselves for those missed galaxies. 
-\par In our fitting, we use S\'{e}rsic profile to model the surface brightness of galaxies :
+\par The S\'{e}rsic profile can be described by:
 \begin{equation}
     I(R) = I_0 exp\left\{-b_n\left(\frac{R}{R_e}\right)^{1/n}\right\}
     \label{SB}
@@ -195,10 +195,13 @@ Here, $q$ is the axis ratio, $n$ is the S\'{e}rsic index while $R$ is the circul
     R^2 = qx^2 + \frac{y^2}{q}
 \end{equation}
 where $x,y$ are Cartesian coordinates, located at the center of galaxies. We use symbol $x$ to denote the axis that is aligned with the semi-major axis of the ellipse, while using $y$ to denote axis aligned with semi-minor axis. The effective radius $R_e$ is circularised as well.
-\par Integrating Eq.\ref{SB}, we can obtain the light enclosed in a certain aperture $L(<R)$ (or the total light $L_{tot}$)
+\par Integrating Eq.\ref{SB}, we can obtain the light enclosed in a certain aperture $L(<R)$ 
+% (or the total light $L_{tot}$)
 \begin{equation}
+    \label{eq:light}
     L(<R) = 2\pi n\cdot I_0R_e^2 \cdot \frac{1}{\left(b_n\right)^{2n}}\cdot \gamma\left[2n,b_n \left(\frac{R}{R_e}\right)^{\frac{1}{n}}\right]
 \end{equation}
+The total light is simply substitute $R = \infty$ to Eq.\ref{eq:light}
 \begin{equation}
     L_{tot} = 2\pi n\cdot I_0R_e^2 \cdot \frac{1}{\left(b_n\right)^{2n}}\cdot \Gamma\left(2n\right)
 \end{equation}
@@ -217,10 +220,7 @@ Therefore, $b_n$ can be calculated by solving
 % \end{equation}
 % \par We use the sky-subtracted and coadd science image in r-band (in consistent with fiducial sample) and using software SEXTRACTOR(\cite{Bertins_1996_Sextractor}) to mask the neighbouring objects with 1.5$\sigma$ detection threshold. The uncertainty of the sky is provided in the weight image, we then add the poisson noise calculated form the science image in quadruple and thus create the sigma image. We then ran GALFIT(\cite{Peng_galfit_2002}) and obtained S\'{e}rsic parameters for those missed galaxies.
 % \par Combining with the S\'{e}rsic fitting result from KiDs DR4 structural catalogue, we obtained a sample within which all galaxies has reliable S\'{e}rsic parameters.We use 'refined sample' to represent this sample. 
-\par In fact, galaxies may have various component, hence single S\'{e}rsic model might not be able to give a accurate description of the entire surface brightness profile. However, as we are focusing on the inner region of the galaxy, our only requirement is just the surface brightness in the inner region of galaxy can be accurately described by model.Therefore, we compared the profile of the enclosed light of galaxies with their best-fitting S\'{e}rsic model in Fig~\ref{fig:enclosed_magnitude} . We can easily observe that although some model do have discrepancy at some large radii, the enclosed light within $10kpc$ is still well constrained by model. 
-\subsubsection{$M_{*,10}, \Gamma_{*,10}$ Calculation}
-\label{sec:cal}
-In our work, we assume that there is no mass-to-light ratio gradient inside one galaxy, hence the mass profile can be easily obtained via the light profile. We have obtained the stellar mass estimate for each galaxy from GAMA together with the light they use in the SPS model fitting process \citep{GAMAmain}, which enable us to calculate the mass-to-light ratio $\Upsilon_*$. The mass profile can be easily obtained by multiplying Eq3 and Eq4 with that $\Upsilon_*$.
+\par In our work, we assume that there is no mass-to-light ratio gradient inside one galaxy, hence the mass profile can be easily obtained via the light profile. We have obtained the stellar mass estimate for each galaxy from GAMA together with the light they use in the SPS model fitting process \citep{GAMAmain}, which enable us to calculate the mass-to-light ratio $\Upsilon_*$. The mass profile can be easily obtained by multiplying Eq3 and Eq4 with that $\Upsilon_*$.
 \begin{equation}
     \label{eq:sigma}
     \Sigma_*(R) = \Upsilon_* I_0 exp\left\{-b_n\left(\frac{R}{R_e}\right)^{1/n}\right\} 
@@ -229,7 +229,12 @@ In our work, we assume that there is no mass-to-light ratio gradient inside one 
     \label{eq:mass}
     M_*(<R) = \Upsilon_* 2\pi n\cdot I_0R_e^2 \cdot \frac{1}{\left(b_n\right)^{2n}}\cdot \gamma\left[2n,b_n \left(\frac{R}{R_e}\right)^{\frac{1}{n}}\right]
 \end{equation}
-\par Simply substitute $R = 10kpc$ to Eq.\ref{eq:mass}, we obtained $M_{*,10}$, while $\Gamma_{*,10}$ is obtained by substituting Eq.\ref{eq:sigma} to Eq.\ref{eq:gammastar10}. 
+Simply substitute $R = 10kpc$ to Eq.\ref{eq:mass}, we obtained $M_{*,10}$, while $\Gamma_{*,10}$ is obtained by substituting Eq.\ref{eq:sigma} to Eq.\ref{eq:gammastar10}.
+In fact, we could only obtain the stellar mass estimation from GAMA survey and structure parameter measurement from KiDs survey.As these two surveys may use different aperture size in investigating the same galaxy, these two quantities might not be consistent. Nevertheless, we may make a assumption that the mass-to-light ratio $\Upsilon_*$ do not depend on the distance to the center of galaxy. Therefore, although we could only obtain $\Upsilon_*$ from GAMA survey, we believe it is reasonable to use it to calculate $M_{*,10}$ and $\Gamma_{*,10}$ together with the structure parameter measured by KiDs. 
+\par Another concern might arise from the fact that galaxies may have various component, hence single S\'{e}rsic model might not be able to give a accurate description of the entire surface brightness profile. However, as we are focusing on the inner region of the galaxy, our only requirement is just the surface brightness in the inner region of galaxy can be accurately described by model.We compared the profile of the enclosed light of galaxies with their best-fitting S\'{e}rsic model in Fig~\ref{fig:enclosed_magnitude} . We can easily observe that although some model do have discrepancy at some large radii, the enclosed light within $10kpc$ is still well constrained by model. 
+% \subsubsection{$M_{*,10}, \Gamma_{*,10}$ Calculation}
+% \label{sec:cal}
+ 
 \subsection{Completeness}
 To accurately measure the evolution of $M_{*,10}$ and $M_{*,10} - \Gamma_{*,10} $ relation, we do not expect any bias be introduced during the sample selection procedure. Therefore, we need our sample to be complete in $M_{*,10}$. Our fiducial sample is flux-limited, with its 95\% completeness limit down to r-band magnitude 19.65. To obtain a $M_{*,10}$ complete sample, we need to translate this completeness limit in magnitude to limit in $M_{*,10}$.
 % \par GAMA provide the stellar mass estimation together with the r-band flux from SPS fit in its stellar mass DMU(\cite{GAMAmain}). We hence calculate the fraction of these two value and obtain the mass-to-flux ratio $\Upsilon$. Then we use the S\'{e}rsic parameters($R_e,n,b_n$) and the magnitude from surface brightness fitting in our refined sample  and calculated the flux that is enclosed in 10kpc $F_{10}$. It's straightforward that we can just multiply these two quantities and get $M_{*,10} = \Upsilon \times F_{10}$.
@@ -260,7 +265,8 @@ the best-fitting parameter are shown in
         \hline
     \end{tabular}}
 \end{table}
-\par Fig~\ref{fig:completeness_cut} shows the distribution of our sample in $M_{*,10} - z$ space, with the pink solid line shows the $95\%$ completeness limit. We think galaxies whose $M_{*,10}$ is larger than the limit is $95\%$ possible to be included in our fiducial sample. We thus exclude those galaxies whose $M_{*,10}$ is lower than this limit in our fiducial sample and show these galaxies in grey dots. Galaxies shown in black dots are included to built our complete sample. Actually, we use the galaxies that are shown in cyan dots in this figure to investigate the evolution of $\Gamma_{*,10}$ and $M_{*,10} - \Gamma_{*,10}$ relation, as described in Sect.\ref{sec:obres}.
+\par Fig~\ref{fig:completeness_cut} shows the distribution of our sample in $M_{*,10} - z$ space, with the pink solid line shows the $95\%$ completeness limit. We think galaxies whose $M_{*,10}$ is larger than the limit is $95\%$ possible to be included in our fiducial sample. We thus exclude those galaxies whose $M_{*,10}$ is lower than this limit in our fiducial sample and show these galaxies in grey dots. Galaxies shown in black dots are included to built our complete sample.
+ Actually, we use the galaxies that are shown in cyan dots in this figure to investigate the evolution of $\Gamma_{*,10}$ and $M_{*,10} - \Gamma_{*,10}$ relation, as described in Sect.\ref{sec:obres}.
 \begin{figure}
     \centering
     \includegraphics[width = \linewidth]{figure/completeness_cut.png}
@@ -283,9 +289,85 @@ the best-fitting parameter are shown in
 % \end{equation}
 % \par Here $R$ is the circulised radius $R^2 \equiv qx^2+ \frac{y^2}{q}$, where $q$ is the axis ratio. The "structure catalogue provided us the half-light radius $R_e$ and the S\'{e}rsic index $n$.$I_0$ is the surface brightness in the center of one galaxy and $b(n)$ can be calculated by constraining the region enclosed in the hald-light radius $R_e$ contains half of the total light.Hence, we can calculate the mass enclosed in $10kpc$($M_{*,10}$) and the mass-weighted projected surface brightness slope ($\Gamma_{*,10}$)
 % \subsection{Completeness}
-\subsection{Simulation}
-In order to build a intuitive understanding of the growth in $M_{*,10}$ and $\Gamma_{*,10}$ due to mergers, we utilize a collection of 8 sets dissipationless binary-merger simulations which has been used in \cite{sonnenfeld2014} to construct a dry-merger model. These 8 sets of simulations has five different parameter settings and is reported in Table~\ref{tab:simulation}. 
-Each set contains two simulations with nearly identical parameter settings except for their different orbital angular momentum in order to take both 'head-on' and 'off-axis' encounter into consideration. All orbits are parabolic.   
+\subsection{$M_{*,10}$ - $\Gamma_{*,10}$ relation}
+As a consequence of the completeness cut, galaxies with lower $M_{*,10}$ value at higher redshift would be absent in our sample. To investigate the evolution trend in $M_{*,10 } - \Gamma_{*,10}$ relation, we have to either narrow the redshift range to include more low-$M_{*,10}$ galaxies or narrow the $M_{*,10}$ range to include more high-redshift galaxies. In this work, we choose the latter one, meaning that we only focus on massive quiescent galaxies whose $M_{*,10} \geq 10^{10.9} M_{\odot}$. In addition, we set a lower limit on the redshift range $ z \geq 0.15$. It's easy to observe some vertical stripe-like feature in Fig.\ref{fig:completeness_cut} at low redshift end, and is thought to be the effect of large scale structure by \cite{GAMAmain}. It is reasonable as the comoving volume at low redshift is relatively smaller, so it is more likely to suffer from cosmic variance. We thus determined this low-redshift cut in order to avoid such cosmic variance. The final sample we used to investigate the evolution is show by cyan dots in Fig.\ref{fig:completeness_cut}. We further separate the sample into four different redshit bins.  
+\par In order to infer the distribution of $\Gamma_{*,10}$ as a function of $M_{*,10}$ in different redshift bins, we use a Beyesian hierarchical method to do the fitting. Each galaxy included in our sample can be described by a set of quantities $\{ \log M_{*,10}, \Gamma_{*,10}, z \}$. The true value of these quantities, hereafter represented by $\mathbf{\Theta}$, are drawn from a probability distribution that correlated with the observed data $\mathbf{d} = \{ \log M_{*,10}^{obs}, \Gamma_{*,10}^{obs}, z^obs \}$, and is in turn described by a set of hyperparameters $\mathbf{\Phi}$.We expect to obtain the posterior distribution of the hyperparameters $\mathbf{\Phi}$ given the observed data $\mathbf{d}$: 
+\begin{equation}
+    P(\mathbf{\Phi}|\mathbf{d}) \propto  P(\mathbf{\Phi}) P(\mathbf{d}|\mathbf{\Phi})
+\end{equation}
+thus we marginalize every possible value of $\mathbf{\Theta}$ in the likelihood part: 
+\begin{equation}
+    \label{Eq:likelihood}
+    P(\mathbf{d}|\mathbf{\Phi}) = \int P(\mathbf{d}|\mathbf{\Theta})P(\mathbf{\Theta}|\mathbf{\Phi})d\mathbf{\Theta}
+\end{equation}
+\par As we hope to acquire the $\Gamma_{*,10} -M_{*,10}$  relation, we may rewrite the second part on the R.H.S. of Eq.\ref{Eq:likelihood} as
+\begin{equation}
+    P(\mathbf{\Theta}|\mathbf{\Phi}) =  P(\log M_{*,10}|\mathbf{\Phi})P(\Gamma_{*,10}|\mathbf{\Phi},\log M_{*,10})
+\end{equation}
+Note that we have binned the sample into four different redshift bins, hence we ignore the redshift dependence of the hyperparameters $\mathbf{\Phi}$.
+\par  For the distribution of $\log M_{*,10}$, we use a skew normal distribution to describe : 
+\begin{small}
+   \begin{equation}
+        P\left(\log M_{*,10}|\Phi\right) = \frac{1}{\sqrt{2\pi\sigma^2_M}}exp\left\{-\frac{(\log M_{*,10} - \mu_M)^2}{2\sigma_M^2}\right\}\mathcal{E}\left(\log M_{*,10} | \Phi\right)
+    \end{equation} 
+\end{small}
+where
+\begin{equation}
+    \mathcal{E}\left(\log M_{*,10} | \Phi\right) = 1 + erf\left(\alpha_M\frac{\log M_{*,10} - \mu_M}{\sqrt{2\sigma_M}}\right)
+\end{equation}
+\par For the distribution of $\Gamma_{*,10}$, we use a Gaussian distribution to describe:
+\begin{equation}
+    P\left(\Gamma_{*,10}|\Phi,\log M_{*,10}\right) = \frac{1}{\sqrt{2\pi\sigma^2_{\Gamma}}}exp\left\{-\frac{(\Gamma_{*,10} - \mu_{\Gamma})^2}{2\sigma_{\Gamma}^2}\right\}
+\end{equation}
+The relation between $\log M_{*,10}$ and $\Gamma_{*,10}$ is described by the $\log M_{*,10}$ dependence on $\mu-\Gamma$:
+\begin{equation}
+    \label{eq:mg_relation}
+    \mu_{\Gamma} = \mu_{\Gamma,0} + \mu_{\Gamma, ms}\left(\log M_{*,10} - \log M^{piv}_{*,10}\right)
+\end{equation}
+Here we use a pivot value for $\log M_{*,10}$, which is the median value in each redshift bins.
+\par Therefore, the full distribution of $\Theta$ given $\mathbf{\Phi}$ is governed by the following set of hyperparameters:
+\begin{equation}
+    \mathbf{\Phi} = \{ \mu_M, \sigma_M, \alpha_M, \mu_{\Gamma,0}, \mu_{\Gamma, ms}, \sigma_{\Gamma} \}
+\end{equation}
+\par For the first part on the R.H.S. of Eq.\ref{Eq:likelihood}, we may rewrite it as
+\begin{equation}
+    P(\mathbf{d}|\mathbf{\Theta}) = P(\log M^{obs}_{*,10}|\log M_{*,10})P(\Gamma^{obs}_{*,10}|\Gamma_{*,10})P(z^{obs}|z)
+\end{equation}
+\par Fortunately, according to Eq.\ref{eq:gammastar10},Eq.\ref{eq:sigma}and Eq.\ref{eq:mass}, the uncertainty of $\Gamma_{*,10}$ has cancelled out. In addition, as we use spectroscopic redshift, the uncertainty of $z$ is negligible. Therefore, we only need to consider the uncertainty of $\log M_{*,10}$, which we assume can be described by a Gaussian distribution:
+\begin{tiny}
+    \begin{equation}
+        P[\log (M_{*,10}^{obs})|\log (M_{*,10})] = \frac{\mathcal{A}[\log (M_{*,10})]}{\sqrt{2\pi\sigma^2_{M_{*,10,obs}}}}exp\left\{-\frac{[\log (M_{*,10}) - \log (M_{*,10}^{obs})]^2}{2\sigma_{M_{*,10, obs}}^2}\right\}
+    \end{equation}
+\end{tiny}
+while $\mathcal{A}[\log (M_{*,10})]$ satisfies
+\begin{tiny}
+    \begin{equation}
+        \int_{log(M_{*,10,min})}^\infty dlog(M_{*,10}^{obs})\frac{\mathcal{A}[log(M_{*,10})]}{\sqrt{2\pi\sigma^2_{M_{*,10,obs}}}}exp\left\{-\frac{[log(M_{*,10}) - log(M_{*,10}^{obs})]^2}{2\sigma_{M_{*,10, obs}}^2}\right\} = 1 
+    \end{equation}
+\end{tiny}
+\par We sampled the posterior distribution of these hyperparameters and find the median value . The result is shown in \ref{tab:mg_relation}
+\begin{table}
+    \centering
+    \caption{Beyesian hierarchical model fitting for the $\Gamma_{*,10} - M_{*,10}$ relation in different redshift bins.}
+    \label{tab:mg_relation}
+    \resizebox{\columnwidth}{!}{
+    \begin{tabular}{ccccccc}
+        \hline
+        redshift & $\mu_M$ & $\sigma_M$ & $\alpha_M$ & $\mu_{\Gamma,0}$ & $\mu_{\Gamma, ms}$ & $\sigma_{\Gamma}$ \\
+        \hline
+        0.15-0.21 & 10.92 & 0.16 & 6.34 & 5.23 & -0.34 & 0.10 \\
+        0.21-0.28 & 10.94 & 0.15 & 4.34 & 5.73 & -0.38 & 0.10 \\
+        0.28-0.34 & 10.89 & 0.16 & 20.07 & 5.74 & -0.38 & 0.10 \\
+        0.34-0.40 & 10.89 & 0.15 & 2.09 & 4.03 & -0.23 & 0.11 \\
+        \hline
+    \end{tabular}}
+\end{table}
+In addition, to illustrate the $\Gamma_{*,10}$ - $M_{*,10}$ relation, which is decribed by Eq.\ref{eq:mg_relation}, we plot $\mu_\Gamma$ as a function of $\log M_{*,10}$ in Fig.\ref{fig:mg_relation},together with the median value of $\mu_\Gamma$ in each mass bin.
+\section{Simulation}
+\subsection{Basic information}
+As mentioned in Sect.\ref{sec:intro}, we expect to understand how mergers, in particular, dry mergers with different merger mass ratio, would affect $M_{*,10}$ and $\Gamma_{*,10}$. 
+Therefore, we utilize a collection of 8 sets dissipationless binary-merger simulations which has been used in \cite{sonnenfeld2014} to construct a dry-merger model. These 8 sets of simulations has five different parameter settings and is reported in Table~\ref{tab:simulation}. 
+Each set contains two runs of simulations with nearly identical parameter settings except for their different orbital angular momentum in order to take both 'head-on' and 'off-axis' encounter into consideration. All orbits are parabolic.   
 \begin{table}
     \centering
     \caption{Simulation parameters for different sets of simulation. }
@@ -319,33 +401,64 @@ where $M_*$ is the total stellar mass. The simulation adopt $\gamma = 1.5$ .
 According to \cite{nipoti2009}, $r_s$ is the scale radius, while $M_{DM,0}$ is a reference mass. A exponential cut-off is adopted as a truncation of the halo, hence the total dark mass would not extend to infinity. As the summation of the two components, the total mass profile $\rho(r) = \rho_*(r) + \rho_{DM}(r)$ is nearly isothermal: the slope $\gamma'$ of the toal mass profile in 8 sets of simulation lies in the range of $1.97 \sim 2.03$.
 
 \par The simulation is run with FVFPS code (Fortran Version of Fast Poisson Solver, \cite{londrillo03,nipoti03}) The following code parameter values are adopted: minimum value of the opening parameter $\theta_{min} = 0.5$ while the softening parameter $\epsilon = 0.04 R_\text{eff}$, here $R_\text{eff}$ represent the effective radius of the main galaxy. The timestep $\Delta t$ is the same for all particles, while is allowed to vary depending on the maximum particle density $\rho_{max}$ at that epoch.In particular, the timestep can be adapted by $\Delta t = 0.3/(4\pi G \rho_{max})^{1/2}$.The realisation of the initial condition is identical to that in \cite{nipoti2009}, with the mass of dark matter parts twice as heavy as stellar particles.
+\subsection{Mock observation}
+
 % \par As the origin simulation data didn't give a physical unit of both mass and radius, we now have the freedom to 'rescale' the simulation data to generate galaxies with different size and mass. In practise, we modify the remnant galaxy with three different length unit so that the effective radius $R_e$ of the remnant galaxy equals to $1.22,5,10 kpc$.  
 % \section{Method}
 % \subsection{Random catalogue}
 % Obtaining the $M*_{,10}$ and $\Gamma_{*,10}$ data, we want to plot the $M_{*,10}$ function and investigate its redshift-dependent evolution ,which require us to know the effective volume of our sample. Here we apply the random catalogue method to investigate such issue........
 % \subsection{Beyesian hierarchical method?}
 
-\section{Result}
-\subsection{The growth of $M_{*,10}$ and $\Gamma_{*,10}$ in simulation}
+
 In order to investigate the growth of these two parameters, we only need to focus on two snapshots of the simulation. The first snapshot is the initial state which contains the initial main galaxy and satellite galaxy, in fact, we only care about the main galaxy. The second snapshot is the final state when the merging process is finished leaving a remnant galaxy. The word 'finish' means that the remnant stellar system is relaxed and virialised, while the remnant galaxy is denfined as the collection of dark matter particles and stellar particles that are bounded. We project the initial and remnant galaxies onto x-y plane so as to generate a mock observational image of these two, the mock image is shown in Fig.\ref{fig:mock_image}.The initial main galaxy is spherical, thus its image is a circle. In contrast, the remnant galaxy does not have this symmetry, hence we can observe that its image is a ellipse. In order to make a fair comparison, we then circularised the remnant ellipse. In particular, we measured the quadruple moment of the remnant galaxy image, and then stretch and rotate the image according to this quadruple moment until the image become a circle.
 \begin{figure*}
     \centering
     \includegraphics[width=\linewidth]{figure/circularised.png}
     \caption{\label{fig:mock_image}In this plot We choose the simulation set D3 to illustrate the mock images of main and remnant galaxies. The left panel shows the  initial main galaxy, while the middle and right panels are  the uncircularised and circularised remnant galaxy respectively. The unit is in code unit, instead of physical unit}
 \end{figure*}
-Having done this circulrisation, we are enabled to measure the $M_{*,10}$ and $\Gamma_{*,10}$ of both circularised initial main galaxy and circularised remnant galaxy, and make direct comparison to see how these two quantities grow during the merging process.
-\par Actually, the mass,length, time and velocity are not in physical unit, but in code unit. That means we have the freedom to 'rescale' the simulation data, i.e. specify a physical value for these 'code unit', to generate galaxies with different size and mass. Traditionally, changing the mass and length unit may affect the timestep used in the simulation, but as we only focus on two snapshots and ignoring the time that one merger event take, we believe this 'rescale' operation would not severely affect our result. The default scale of the simulation set the length unit to $1 kpc$ and the total stellar mass of the main galaxy is $log_{10}(M_*) = 10.5$ so that the effective radius of which is $R_e = 1.22 kpc$. We then make two other modification to make the initial main galaxy has $R_e = 5,10 kpc$, meaning that the physical value of one code length unit is $4.1, 8.2 kpc$ respectively in each modification.Therefore, for each set of simulations, we have three pairs of main and remnant galaxies. We then measured the $M_{*,10}$ and $\Gamma_{*,10}$ of all six galaxies in one set for all sets of simulations. The result is shown in Fig.\ref{fig:sim_result}. 
+% Having done this circulrisation, we are enabled to measure the $M_{*,10}$ and $\Gamma_{*,10}$ of both circularised initial main galaxy and circularised remnant galaxy, and make direct comparison to see how these two quantities grow during the merging process.
+\par The next step we should do to generate a mock observation is to give a physical unit to the simulation data. In fact, the unit that \cite{nipoti2009} use in the simulation, for instance, mass,length or velocity, do not have a physical meaning, they are just code units.Only after we specify a physical value for these 'code unit' can we calculate the $M_{*,10}$ and $\Gamma_{*,10}$ for our mock galaxies. We refer such operation as 'rescale' the simulation data. In order to understand what is the impact of mergers on the growth of $M_{*,10}$ and $\Gamma_{*,10}$, we actually need a series of mock galaxies with different initial $M_{*,10}$ and $\Gamma_{*,10}$. Therefore, we need to 'rescale' the simulation data several times to obtain that series of mock galaxies.Traditionally, changing the mass and length unit may affect the timestep used in the simulation, but as we only focus on two snapshots and ignoring the time that one merger event take, we believe this 'rescale' operation would not severely affect our result.If we set the length unit to $1 kpc$, the effective radius of the main galaxy would be $R_e = 1.22 kpc$. We then 'rescale' the simulation data accordingly, generated two additional set of mock galaxies with effective radius $R_e = 7kpc$ and $R_e = 12kpc$.  The reason for choosing these two specific value is explained in detail in Sect.\ref{sec:toy}. We show the evolution in $M_{*,10},\Gamma_{*,10}$ space in Fig.\ref{fig:sim_result}
+\par We can easily observe that for all three merger ratios, the parameter $\Gamma_{*,10}$ always shows a decreasing trend, while for larger, more massive galaxies, the decrease in $\Gamma_{*,10}$ tends to be more significant. On the other hand, the growth of parameter $log M_{*,10}$ is a bit more complicated. In general, the growth in $log M_{*,10}$ is always less than the growth in the total stellar mass $\log M_*$, which may indicating that larger fraction of accreted mass are sunk in the outer region of the galaxy. In contrast with the $\Gamma_{*,10}$, smaller galaxies show a larger increase in $log M_{*,10}$. Interestingly, if one pay more attention to the first two panels (top and middle panel), one can find that in some cases, the growth in $log M_{*,10}$ could be even negative after the merger. While for the largest merger ratio $\xi = 1.0$ (bottom panel), the growth in $log M_{*,10}$ is always positive. The negative value informs us that the merger do varies the entire density profile of the galaxy, and the inner region of galaxies may experienced the most significant change comparing with the outer region.The impact on the inner region of galaxies tends to be stronger for mergers with smaller mass ratio.Small mass ratio minor-mergers may flatten the density profile, puffing-up the galaxies hence make $log M_{*,10}$ decrease and $\log M_*$ increase simultaneously.
+\subsection{A toy model for the growth of $M_{*,10}$-$\Gamma_{*,10}$ relation due to mergers}
+\label{sec:toy}
+Firstly, in order to establish a toy model to predict the impact of mergers on the $M_{*,10}$ - $\Gamma_{*,10}$ relation, we need to know how many mass has galaxy grew during a certain period of time, or in other word, during a certain range of redshift. In our work, we adopted the result from \cite{2018moster}, which give a fitting formula of the fraction of stellar mass that accreted onto the main galaxy as a function of redshift for galaxies with different halo mass : 
+\begin{equation}
+    \label{eq:facc}
+    f_{acc}(z) = f_2\exp \left[-f_1(z+1)\right]
+\end{equation}
+\par For different halo mass, the parameter $f_1$ and $f_2$ are different, as shown in table~\ref{tab:facc}. Here we only show the fitting parameter for two different, relatively large halo mass, as we only focus on the massive quiescent galaxies in our observation sample.
+\par The next step is to estimate the stellar mass given the halo mass, hence we need the stellar-to-halo mass relation (SHM relation). This relation has a relatively large scatter, therefore inferring average halo mass from a given stellar mass is not equivalent to inferring the stellar mass from a given halo mass. In this work, we aim to know the average fraction of accreted mass, hence we need know what stellar mass correspond to a average halo mass $10^{13}M_\odot$ (or $10^{14}M_\odot$).  We thus use Fig.4 in \cite{2020moster} to operate a rough estimate on the stellar mass. For $M_h = 10^{13}M_\odot$, the stellar mass is about $10^{11.1}M_\odot$, while for $M_h = 10^{14}M_\odot$, the stellar mass is about $10^{11.7}M_\odot$.We then make narrow stellar mass bins in our final sample, then calculated the median value of $M_{*,10}$ : $10^{10.9}M_\odot$ and $10^{11.4}M_\odot$ respectively.
+\par Having estimate the $M_{*,10}$, we use the $\Gamma_{*,10}$ - $M_{*,10}$ relation of the highest redshift bin in Sect.\ref{sec:obres} to estimate the $\Gamma_{*,10}$ for these two stellar mass. Then we try to 'rescale' our simulation data to let the 'rescaled' mock galaxy have a $\Gamma_{*,10}$ that is close to the estimated value.  The 'rescaled' mock galaxy correspond to halo mass $M_h = 10^{13}M_\odot$ has a effective radius $R_e = 7 kpc$ with $\Gamma_{*,10} \approx 1.57$, while another mock galaxy has $R_e = 12kpc$ with $\Gamma_{*,10} \approx 1.39$. We hope to explain the change of the $M_{*,10}$ - $\Gamma_{*,10}$ relation from the highest redshift bin to the lowest redshift bin using our toy model, hence we calculated the mass that has accreted to the galaxy during that range of redshift using Eq.\ref{eq:facc} and then translate the accreted mass fraction to the numbers of merger events with different merger ratio ($\xi = 1.0,0.5,0.2$).$\Delta M_{*,10}^{\text{total}}$ and $\Delta \Gamma_{*,10}^{\text{total}}$ due to on entire merger event is already obtained and is shown in Fig.\ref{fig:sim_result}, we thus estimate the growth of $M_{*,10}$ and $\Gamma_{*,10}$ by multiplying the number of mergers with the $\Delta M_{*,10}^{\text{total}}$ and $\Delta \Gamma_{*,10}^{\text{total}}$. 
+\begin{table}
+    \centering
+    \caption{Simulation parameters for different sets of simulation. }
+    \label{tab:facc}
+    \begin{tabular}{ccc}
+        \hline
+        % \hline
+        $\log M_h$ & $f_1$ & $f_2$  \\
+        \hline
+        13& 1.09 & 0.55  \\
+        14 & 0.94 & 1.43  \\
+        
+        \hline
+    \end{tabular}
+\end{table}
+\section{Result}
+\subsection{The growth of $M_{*,10}$ and $\Gamma_{*,10}$ in simulation}
+% \par In practice, if we want to understand what is the impact of mergers on the growth of $M_{*,10}$ and $\Gamma_{*,10}$, we actually need a series of mock galaxies with different initial $M_{*,10}$ and $\Gamma_{*,10}$. 
+% Fortunately, the mass,length, time and velocity in the simulation that we utilized are not in physical unit, but in code unit. That means we have the freedom to 'rescale' the simulation data, i.e. specify a physical value for these 'code unit', to generate galaxies with different size and mass. Traditionally, changing the mass and length unit may affect the timestep used in the simulation, but as we only focus on two snapshots and ignoring the time that one merger event take, we believe this 'rescale' operation would not severely affect our result. The default scale of the simulation set the length unit to $1 kpc$ so that the effective radius of which is $R_e = 1.22 kpc$. We then make two other modification to make the initial main galaxy has $R_e = 5,10 kpc$, meaning that the physical value of one code length unit is $4.1, 8.2 kpc$ respectively in each modification.Therefore, for each set of simulations, we have three pairs of main and remnant galaxies. We then measured the $M_{*,10}$ and $\Gamma_{*,10}$ of all six galaxies in one set for all sets of simulations. The result is shown in Fig.\ref{fig:sim_result}. 
 \begin{figure}
     \centering
     \includegraphics[width=0.75\linewidth]{figure/sim_result.png}
     \caption{ Three panels show the change in $logM_{*,10}$ and $\Gamma_{*,10}$ due to mergers with three different merger ratio $\xi$, while the three colors represent different initial effective radius $R_e$ of the main galaxy.The vertical dotted cyan line shows the logarithmetic change in the total stellar mass for each merger ratio. }
     \label{fig:sim_result}
 \end{figure}
-\par We can easily observe that for all three merger ratios, the parameter $\Gamma_{*,10}$ always shows a decreasing trend, while for larger, more massive galaxies, the decrease in $\Gamma_{*,10}$ tends to be more significant. On the other hand, the growth of parameter $log M_{*,10}$ is a bit more complicated. In general, the growth in $log M_{*,10}$ is always less than the growth in the total stellar mass $\log M_*$, which may indicating that larger fraction of accreted mass are sunk in the outer region of the galaxy. In contrast with the $\Gamma_{*,10}$, smaller galaxies show a larger increase in $log M_{*,10}$. Interestingly, if one pay more attention to the first two panels (top and middle panel), one can find that in some cases, the growth in $log M_{*,10}$ could be even negative after the merger. While for the largest merger ratio $\xi = 1.0$ (bottom panel), the growth in $log M_{*,10}$ is always positive. The negative value informs us that the merger do varies the entire density profile of the galaxy, and the inner region of galaxies may experienced the most significant change comparing with the outer region.The impact on the inner region of galaxies tends to be stronger for mergers with smaller mass ratio.Small mass ratio minor-mergers may flatten the density profile, puffing-up the galaxies hence make $log M_{*,10}$ decrease and $\log M_*$ increase simultaneously.
+
+
 \subsection{Observation result}
 \label{sec:obres}
-\par Having investigate the result in simulations, we then operate the measurement to our observation sample. In fact, we have done a small modification on the total stellar mass. In case that we use the stellar mass measured by GAMA survey and use S\'{e}rsic parameter measured by KiDs survey, the flux of one single galaxy that has been used in the measurement of these two surveys may not be consistent. Here we made the assumption that the mass-to-flux ratio is a constant value in one single galaxy and calculated this ratio $\Upsilon_*$ for each galaxy, using the data of total flux (converted from apparent magnitude) and stellar mass in GAMA survey. We then multiplied this ratio by the total flux measured by KiDs survey and obtained the stellar mass that is in consistent with the KiDs S\'{e}rsic parameter.  
-\par As a consequence of the completeness cut, galaxies with lower $M_{*,10}$ value at higher redshift would be absent in our sample. To investigate the evolution trend in $M_{*,10 } - \Gamma_{*,10}$ relation, we have to either narrow the redshift range to include more low-$M_{*,10}$ galaxies or narrow the $M_{*,10}$ range to include more high-redshift galaxies. In this work, we choose the latter one, meaning that we only focus on massive quiescent galaxies whose $M_{*,10} \geq 10^{10.9} M_{\odot}$. In addition, we set a lower limit on the redshift range $ z \geq 0.15$. It's easy to observe some vertical stripe-like feature in Fig.\ref{fig:completeness_cut} at low redshift end, and is thought to be the effect of large scale structure by \cite{GAMAmain}. It is reasonable as the comoving volume at low redshift is relatively smaller, so it is more likely to suffer from cosmic variance. We thus determined this low-redshift cut in order to avoid such cosmic variance. The final sample we used to investigate the evolution is show by cyan dots in Fig.\ref{fig:completeness_cut}. We binned the sample in redshift and $M_{*,10}$, then calculated the median value of $\Gamma_{*,10}$ in each bin. The $\Gamma_{*,10}$ result is shown as a function of $M_{*,10}$ in Fig.\ref{fig:mg_relation} and as a function of redshift in Fig.\ref{fig:gamma}.
+\par Having investigate the result in simulations, we then operate the measurement to our observation sample. As a consequence of the completeness cut, galaxies with lower $M_{*,10}$ value at higher redshift would be absent in our sample. To investigate the evolution trend in $M_{*,10 } - \Gamma_{*,10}$ relation, we have to either narrow the redshift range to include more low-$M_{*,10}$ galaxies or narrow the $M_{*,10}$ range to include more high-redshift galaxies. In this work, we choose the latter one, meaning that we only focus on massive quiescent galaxies whose $M_{*,10} \geq 10^{10.9} M_{\odot}$. In addition, we set a lower limit on the redshift range $ z \geq 0.15$. It's easy to observe some vertical stripe-like feature in Fig.\ref{fig:completeness_cut} at low redshift end, and is thought to be the effect of large scale structure by \cite{GAMAmain}. It is reasonable as the comoving volume at low redshift is relatively smaller, so it is more likely to suffer from cosmic variance. We thus determined this low-redshift cut in order to avoid such cosmic variance. The final sample we used to investigate the evolution is show by cyan dots in Fig.\ref{fig:completeness_cut}. We binned the sample in redshift and $M_{*,10}$, then calculated the median value of $\Gamma_{*,10}$ in each bin. The $\Gamma_{*,10}$ result is shown as a function of $M_{*,10}$ in Fig.\ref{fig:mg_relation} and as a function of redshift in Fig.\ref{fig:gamma}.
 \begin{figure}
     \centering
     \includegraphics[width=\linewidth]{figure/mg_relation.png}
@@ -376,7 +489,7 @@ In fact, to infer the growth mechanism that quiescent galaxies may undergo, the 
  \cite{Bundy2017} has studied the evolution in the number density of massive quiescent galaxies. Having considered a number of systematic that may affect the number densities, they claimed they did not detected a significant growth for these massive quiescent galaxies. 
 \par However, the most important thing in studying the number density is exactly the systematics. As the number of massive galaxies becomes less and less in high mass end, the number density becomes more and more sensitive to some potential systematics. Actually, as the narrow redshift and $M_{*,10}$ range that we are focusing, our expectation is that the number density would not change significantly during this period of time. In order to reach the conclusion that the number density of massive quiescent galaxies stays constant during $0.15 \leq z \leq 0.4$, we need to be more careful about the systematics. To eliminate these systematic biases, we need to perform some detailed analysis on stellar mass estimation, the cosmic variance, for instance. Therefore, we leave the investigation on number density of massive quiescent galaxies in our sample to the future work.  
 
-\section{Conclusion}l
+\section{Conclusion}
 In our work, we provide a new perspective to investigate the evolution of quiescent galaxies. Instead of trying to obtain the information of stellar mass and gravitational radius from the entire light of one galaxy, we switch our attention into the inner region. In particular, we focus on a fixed physical aperture $10kpc$ and measure the mass and mass-weighted projected surface brightness slope $\Gamma_{*,10}$ within. Although some information of the outer region is artificially ignored, these new parameterization could still provide us sufficient information to investigate the evolution of quiescent galaxies.
 \par In order to understand want we can learn from the evolution of galaxies in $M_{*,10} ,\Gamma_{*,10}$ parameter space, we first utilize a collection of dissipationless binary merger simulations. We rescale each simulations to different size thus we could know if the size or mass would leave impact on the evolution in $M_{*,10} ,\Gamma_{*,10}$ parameter space. We divide the collection of simulations into three groups depending on their merger ratios $\xi$. In particular, we obtain the result for $\xi =  0.2, 0.5 ~\text{and}~ 1.0 $ . The result is shown in Fig.\ref{fig:sim_result}. We conclude the result as follows:
 \begin{itemize}
